@@ -22,6 +22,7 @@ qrc_mytetra.cpp
 
 build-*-Debug/*
 build-*-Release/*
+build
 
 # Ignore compiled Object files
 *.slo
