@@ -77,7 +77,7 @@ bool Password::retrievePassword()
 
 
             // Проверяется, запомнен ли пароль в конфиге (точнее, промежуточный хеш)
-            if( mytetraConfig.getPasswordSaveFlag() and
+            if( mytetraConfig.getPasswordSaveFlag() &&
                 mytetraConfig.getPasswordMiddleHash().length()>0)
             {
                 // Пароль хранится в системе
